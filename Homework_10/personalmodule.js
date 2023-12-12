@@ -3,7 +3,6 @@ const os = require("os");
 function hello (){
     let now= new Date();
     let time= now.getHours();
-    let date = now.getFullYear();
     let message;
  if (time >= 5 && time<11){
    message = " Good morning ";
