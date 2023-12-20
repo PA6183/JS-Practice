@@ -40,8 +40,10 @@
 
 
 // //__________________________________________Task 4_____________________________________________
-//OPTIONAL
-
+// //OPTIONAL
+// let re = /(\S+)\s+(\S+)/;
+// let string = "Java Script";
+// console.log(string.replace(re, "$2, $1"))
 
 // //__________________________________________Task 5_____________________________________________
 
@@ -74,4 +76,16 @@
 
 
 // //__________________________________________Task 7_____________________________________________
-// OPTIONAL
+// //OPTIONAL
+// function validateLogin(string){
+//     let re1 = /^[A-Za-z][A-Za-z0-9.]{1,9}$/g; //Added "." character" into the regular expression since the 2nd part of the task 7 says that the function should take floating numbers as well, meaning that "." character should be included along with letters and numbers.
+//     let re2 = /\d+\.*\d*/g;
+//     // if (re1.test(string) === true){
+//     // console.log(re1.test(string))
+//     // }
+//     // else{console.log(re1.test(string))}
+//     console.log(re1.test(string));
+//     console.log(string.match(re2));
+// }
+// validateLogin('ee1.1ret3'); //true 1.1, 3        
+// validateLogin('ee1*1ret3'); //false 1 , 1 , 3  
