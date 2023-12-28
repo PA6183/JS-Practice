@@ -1,0 +1,36 @@
+{
+  "name": "js-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "jest",
+    "test14_1": "mocha --recursive --timeout 10000 Homework_14/hw14_1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PA6183/JS-Practice.git"
+  },
+  "author": "Polina Alf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PA6183/JS-Practice/issues"
+  },
+  "homepage": "https://github.com/PA6183/JS-Practice#readme",
+  "dependencies": {
+    "chromedriver": "^120.0.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.16.0",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0"
+  },
+  "description": ""
+}
